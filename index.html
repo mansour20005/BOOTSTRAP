@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <title>BOOTSTRAPP</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">BOOTCAMP MEAN BOOTSTRAP ACTIVITY</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <!-- <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li> -->
+            </ul>
+            <div class="recherche_p bg-dark">
+                <form class="d-flex">
+                    <div class="recherche_barr d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <a href="#" class="Recherche-Icone">
+                            <i class="bi bi-search"></i>
+                        </a>
+                    </div>
+                    <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+                </form>
+            </div>
+            <div class="btn-group float-end">
+                <a href="#" class="dropdown-toggle text-decoration-none text-light" data-bs-toggle="dropdown">
+                    <i class="bi bi-person-circle"></i>
+                    <span>Gurdeep Singh</span>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                    <li><a href="#" class="dropdown-item"><i class="bi bi-lock-fill"></i> Change Password</a></li>
+                    <li><a href="#" class="dropdown-item"><i class="bi bi-gear-fill"></i> Admin Setion</a></li>
+                    <li><a href="#" class="dropdown-item"><i class="bi bi-gear-wide-connected"></i> IMAP Settings</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a href="#" class="dropdown-item"><i class="bi bi-box-arrow-right"></i> Sign out</a></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row flex-nowrap">
+            <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
+                <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+                    <a href="/" class="d-flex align-items-center mb-md-0 me-md-auto text-white text-decoration-none">
+                        <span class="fs-5 d-none d-sm-inline gris">CORE</span>
+                    </a>
+                    <ul class="nav nav-pills flex-column align-items-center align-items-sm-start" id="menu">
+                        <li>
+                            <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle text-white">
+                                <i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline" >Dashboard</span> </a>
+                        </li>
+                    </ul>
+                    <hr style="width:100%", size="3">
+                    <a href="/" class="d-flex align-items-center mb-md-0 me-md-auto text-white text-decoration-none">
+                        <span class="fs-5 d-none d-sm-inline gris">INTERFACE</span>
+                    </a>
+                    <ul class="nav nav-pills flex-column align-items-center align-items-sm-start" id="menu">
+                        <li>
+                            <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle text-white">
+                                <i class="bi bi-layout-split"></i> <span class="ms-1 d-none d-sm-inline" >Layouts</span> </a>
+                        </li>
+                        <li>
+                            <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle text-white">
+                                <i class="bi bi-file-break-fill"></i> <span class="ms-1 d-none d-sm-inline" >Pages</span> </a>
+                        </li>
+                    </ul>
+                    <hr style="width:100%", size="3">
+                    <a href="/" class="d-flex align-items-center mb-md-0 me-md-auto text-white text-decoration-none">
+                        <span class="fs-5 d-none d-sm-inline gris">ADDONS</span>
+                    </a>
+                    <ul class="nav nav-pills flex-column align-items-center align-items-sm-start" id="menu">
+                        <li>
+                            <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle text-white">
+                                <i class="bi bi-graph-up"></i> <span class="ms-1 d-none d-sm-inline" >Chart</span> </a>
+                        </li>
+                        <li>
+                            <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle text-white">
+                                <i class="bi bi-file-spreadsheet-fill"></i> <span class="ms-1 d-none d-sm-inline" >Tables</span> </a>
+                        </li>
+                    </ul>
+                    
+                </div>
+                
+            </div>
+            <div class="col py-3">
+                <div class="card-group">
+                    <div class="card border-primary bg-primary mx-3 mb-3" style="max-width: 18rem;">
+                        <div class="card-header bg-transparent border-white text-light">Header</div>
+                        <div class="card-body text-white">
+                          <h5 class="card-title">Success card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        <div class="card-footer bg-transparent border-white text-light">Footer</div>
+                    </div>
+    
+                    <div class="card border-warning bg-warning mx-3 mb-3" style="max-width: 18rem;">
+                        <div class="card-header bg-transparent border-white text-light">Header</div>
+                        <div class="card-body text-white">
+                          <h5 class="card-title">Success card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        <div class="card-footer bg-transparent border-white text-light">Footer</div>
+                    </div>
+
+                    <div class="card border-success bg-success mx-3 mb-3" style="max-width: 18rem;">
+                        <div class="card-header bg-transparent border-white text-light">Header</div>
+                        <div class="card-body text-white">
+                          <h5 class="card-title">Success card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        <div class="card-footer bg-transparent border-white text-light">Footer</div>
+                    </div>
+
+                    <div class="card border-danger bg-danger mx-3 mb-3" style="max-width: 18rem;">
+                        <div class="card-header bg-transparent border-white text-light">Header</div>
+                        <div class="card-body text-white">
+                          <h5 class="card-title">Success card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        <div class="card-footer bg-transparent border-white text-light">Footer</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>

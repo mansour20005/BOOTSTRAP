@@ -1,0 +1,30 @@
+.recherche_p {
+  background-color: #eeeeee;
+  padding: 10px 10px 10px 10px;
+}
+
+.recherche_barr {
+  margin-bottom: Auto;
+  margin-top: Auto;
+  background-color: #0a0ee6;
+}
+.Recherche-Icone {
+  height: 40px;
+  width: 40px;
+  float: Right;
+  display: Flex;
+  justify-content: Center;
+  align-items: Center;
+  border-radius: 50%;
+  color: White;
+}
+
+.gris {
+  color: rgb(95, 92, 92);
+  font-weight: bold;
+}
+
+.blanc {
+  color: rgb(245, 238, 238);
+  font-weight: bold;
+}
